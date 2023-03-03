@@ -1,4 +1,4 @@
-
+import Header from './components/Header';
 
 import './App.css';
 
@@ -6,11 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        <h1 className="title">freeCodeCamp Survey Form</h1>
-        <p>Thank you for taking the time to help us improve the platform</p>
-      </header>
-
+      <Header />
       <div className="form-container">
         <form className="form-box">
           <label>Name</label>
