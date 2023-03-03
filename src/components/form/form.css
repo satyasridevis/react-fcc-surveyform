@@ -1,0 +1,14 @@
+.form-container {
+   text-align: center;
+   height: auto;
+   background-color: aqua;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.form-box {
+    width: 720px;
+    background-color: blue;
+  }
