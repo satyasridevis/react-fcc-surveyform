@@ -18,10 +18,64 @@
 body{
   
   font-family: 'Poppins', sans-serif;
-  background: url('./assets/images/survey-form-background.jpeg');
+  /* background: url('./assets/images/survey-form-background.jpeg');
   background-color:  linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7));
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
+
+.header {
+  width:100%;
+  color:var(--color-white);
+  display: block;
+  
+}
+
+
+h1
+{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+p
+{
+    font-weight: 300;
+    font-size: 1.1rem;
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 40%);
+}
+
+.form-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.form-box {
+    background-color:var(--color-darkblue-alpha);
+    color:var(--color-white);
+    text-align: left;
+    width: 60%;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  
+
+
+label {
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
 
